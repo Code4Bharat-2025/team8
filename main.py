@@ -29,11 +29,44 @@ months = {
 
 # tp = ''
 # language = ''
-token= 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI2Yjg5ZDQxYzI2YzM0NzM0M2Q3OGYyYjY3OGY3NDQwZCIsImp0aSI6Ijc2OTllMWU5MWU2Mjc4NTM3N2UxOTEwYzNhYWNmYjNmYmY4MTEzMDg4NjM2MTkwMjMyZmJlMzk5MTI0ZGE3ODA2OGVkM2JhZWZjM2Q1NjJlIiwiaWF0IjoxNzQ3MjAyODc0LjQ2NDM5MywibmJmIjoxNzQ3MjAyODc0LjQ2NDM5NCwiZXhwIjozMzMwNDExMTY3NC40NjIxNiwic3ViIjoiNzgzMDc2MDgiLCJpc3MiOiJodHRwczovL21ldGEud2lraW1lZGlhLm9yZyIsInJhdGVsaW1pdCI6eyJyZXF1ZXN0c19wZXJfdW5pdCI6NTAwMCwidW5pdCI6IkhPVVIifSwic2NvcGVzIjpbImJhc2ljIl19.gjoQKwkkQJz-QNTT29vDpzkpgZCtdp4BAOYwABRodHUMuQjAUexRCD-bYTfrx3lE3n1c1uHnmbfh76p0M_o-vhhVN2VSnHQbn0rx-WAdtimhUxNhhuiKpHcMyTjfHyiozME3Yp4Hd-q9XO29ayWdIgDrRXO_7nZOZTaZk9rNEoQ7fL5sUZc2VjYd_RKxzdFRCPtOC6uXTf7OzP0GEAGrnsBZt3eORQZ7-MpwZsjCKCWHqRwLIwq9esopWof0KQ_m_4zifNOOAHIkOKKJN9BaQE7T4LPTYpi8yC8uMvkYivYwzogxBW7Kwi34vETNcIEZ36V5o5AZW_nA5tEQhYy126z9AirCC4F6S9G6ZEuyZM0RfFwZaDRXBseLyq_EG229wGw0W1GY13C-1IcBy2ABs0pxmymCPhyNlzMplAdwaJV0WGxX19GUPTkxmgWdqatLU15TQpn1lqvXR990WgiPeKsZO2t7r1ErGXtYRVjs71yDSzb1kEIUuQdcouuM6_j8fIkxWigGgS5BJjcDy8-wgkefdZ3GuE1PmYRQadbTikiCr1MKJmAFt2EqLN-sjcd9xvwUEd9G_CKM2fWTLpYmOi5A3qNCTumK7p_Fco9sta2c_hKVHhogazPaVX5VpU-R4zgT7IT5v1ubjGEN7qwGq3wmreZseEKpmnbAUAkITgE'
-user= 'HackathonX'
+token= ''
+user= ''
 #dt =''
 
 
+def getLanguageButtons:
+	buttons = []
+        for i,j in languages.items():
+		button = {
+                    "type": "solid",
+                    "body": i,
+                    "reply": i
+                }
+		buttons.append(button)
+	return buttons
+
+def getEventTypes:
+	events = []
+	buttons = []
+        for i in types:
+		button = {
+                    "type": "solid",
+                    "body": i,
+                    "reply": i
+                }
+		buttons.append(button)
+	return buttons
+
+def getMonthsButtons:
+	buttons = []
+        for i,j in months.items():
+		button = {
+                    "type": "solid",
+                    "body": i,
+                    "reply": i
+                }
+		buttons.append(button)
+	return buttons
 
 
 
