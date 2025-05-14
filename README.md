@@ -27,6 +27,13 @@ Explore significant historical events tied to any specific date. This bot foster
 2. **Select the category**: Events, Births, Deaths, or Holidays.  
 3. **Pick a date** (month and day) to receive historical insights.
 
+### Examples
+
+![Example-Holidays](image.png)
+![Example-Holidays](image-1.png)
+![Example-Events](image-2.png)
+![Example-Events](image-3.png)
+
 ---
 
 ## 🛠️ Technologies Used
@@ -42,16 +49,8 @@ Explore significant historical events tied to any specific date. This bot foster
 
 Clone the repository:
 
-'''bash
 git clone https://github.com/Code4Bharat-2025/team8
-'''
 
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues and pull requests.
-
-## 🙌 Credits
-
-
-## 📄 License
-
