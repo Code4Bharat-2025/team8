@@ -1,45 +1,57 @@
-# On This Day
+# 🕰️ Bot Idea: **Today in History**
 
-Discover fascinating historical events and information with rich multimedia content, including titles, thumbnails, descriptions, and 'Read more' links.
+## 🧠 Powered By: Wikimedia *On This Day* API
 
-## Features
+Explore significant historical events tied to any specific date. This bot fosters curiosity and civic awareness by delivering curated information across four categories. Responses can be customized by date and language preference.
 
-- **Curated Events**: Explore curated historical events.
-- **Notable Births and Deaths**: Learn about notable people born and died on this day.
-- **International Holidays**: Discover international holidays.
-- **Other Events**: Find miscellaneous historical events.
+---
 
-## Live Demo
+## ✨ Features
 
+- **Events** – Discover notable historical events that occurred on a specific day.  
+- **Births** – Learn about influential people born on this date.  
+- **Deaths** – Find out who passed away on this day in history.  
+- **Holidays** – Explore global holidays and observances.
 
-## Usage
+---
 
-1. Provide the language in which you want to chat.
-2. Provide the type of event you want information on.
-3. Provide the date, you wnat the information of.
+## 🚀 Live Demo
 
-## Technologies
+*(Coming Soon)*
 
-- Python
-- Node.js
-- Wikimedia API
+---
+
+## 📖 How to Use
+
+1. **Choose your preferred language** for the response.  
+2. **Select the category**: Events, Births, Deaths, or Holidays.  
+3. **Pick a date** (month and day) to receive historical insights.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- Node.js  
+- Wikimedia *On This Day* API  
 - SwiftChat
 
-## Installation
+---
 
-1. Clone the repository:
+## 📦 Installation
 
-   ```bash
-   git clone https://github.com/Code4Bharat-2025/team8
-   ```
+Clone the repository:
 
-## Contributing
+'''bash
+git clone https://github.com/Code4Bharat-2025/team8
+'''
+
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues and pull requests.
 
-## Credits
+## 🙌 Credits
 
-- 
 
-## License
+## 📄 License
 
